@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body,h1{
+		margin: 0;
+		padding: 0;
+		font-family: arial;
+		background-color: #000;
+	}
+	.text{
+		margin-top: 17%;
+		text-align: center;
+	}
+	.text h1{
+		font-size: 150px;
+		color: rgba(255,255,255,.1);
+		background-image: url(color.jpg);
+		background-repeat: repeat-x;
+		-webkit-background-clip:text;
+		animation: animate 15s linear infinite;
+	}
+
+	@keyframes animate{
+		0%{
+			background-position: left 0px top 10px;
+		}
+		40%{
+			background-position: left 800px top 10px;
+		}
+	}
+</style>
+<body>
+<div class="text">
+	<h1>COLOR</h1>
+</div>
+</body>
+</html>
